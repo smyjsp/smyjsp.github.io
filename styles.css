@@ -99,7 +99,8 @@ nav {
 
 /* Dark Mode Toggle */
 .dark-mode-toggle {
-  background: none;
+  background-color: #000000;
+  text-emphasis-color: #ffffff;
   border: none;
   cursor: pointer;
   font-size: 1.2rem;
