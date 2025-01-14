@@ -94,7 +94,7 @@ nav {
 
 .skills h2 {
   font-size: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5 rem;
   color: var(--dark-gray);
 }
 
@@ -102,18 +102,18 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 0.8rem;
   max-width: 900px;
   margin: 0 auto;
 }
 
 .skill-item {
   background-color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-size: 1.1rem;
+  font-size: 1 rem;
   color: var(--dark-gray);
   transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -125,21 +125,21 @@ nav {
 
 /* Projects Section */
 .projects {
-  padding: 4rem 0;
+  padding: 1 rem 0;
 }
 
 .projects h2 {
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .coming-soon {
   max-width: 600px;
   margin: 0 auto;
-  padding: 3rem;
+  padding: 2.5rem;
   background-color: white;
-  border-radius: 8px;
+  border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
