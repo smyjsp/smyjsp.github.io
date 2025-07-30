@@ -67,7 +67,7 @@ nav {
 
 .hero p {
   max-width: 800px;
-  margin: 2rem auto;
+  margin: 2rem 0;
   font-size: 1.2rem;
   color: #666;
 }
