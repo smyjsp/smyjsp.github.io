@@ -165,13 +165,16 @@ img {
 
 /* Projects Section */
 .projects {
-  padding: 1 rem 0;
+  padding: 4 rem 0;
+  text-align: center;
+  margin-bottom: 4rem;
 }
 
 .projects h2 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1.5rem;
+  color: var(--dark-gray)
 }
 
 .projects-grid {
@@ -192,10 +195,13 @@ img {
   font-size: 1 rem;
   color: var(--dark-gray);
   transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none;
 }
 
 .project-item:hover {
   transform: translateY(-2px);
+  background-color: var(--primary-blue);
+  color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
