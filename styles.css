@@ -174,6 +174,15 @@ img {
   margin-bottom: 1.5rem;
 }
 
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .coming-soon {
   max-width: 600px;
   margin: 0 auto;
