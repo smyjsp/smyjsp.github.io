@@ -183,6 +183,22 @@ img {
   margin: 0 auto;
 }
 
+.project-item {
+  background-color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1 rem;
+  color: var(--dark-gray);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
 .coming-soon {
   max-width: 600px;
   margin: 0 auto;
