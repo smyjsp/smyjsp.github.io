@@ -105,7 +105,7 @@ img {
 .hero ps {
   display: block; /* treat it as a block element so it spans full width of contaier */
   font-size: 1.3rem;
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   color: var(--dark-gray);
 }
