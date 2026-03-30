@@ -102,6 +102,13 @@ img {
   padding: 0 auto;
 }
 
+.hero ps {
+  display: block; /* treat it as a block element so it spans full width of contaier */
+  font-size: 1.3rem;
+  margin: 0;
+  text-align: center;
+  color: var(--dark-gray);
+}
 
 /* Bullet points*/
 .hero ul {
@@ -115,6 +122,10 @@ img {
 .hero li {
   margin-bottom: 1rem;
   line-height: 1.6;
+}
+
+.hero li span {
+  color: var(--primary-blue)
 }
 
 
